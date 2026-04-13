@@ -41,7 +41,7 @@ public class Narudzba {
     public void ispisiRacun(){
         for (Proizvod proizvod: proizvodi){
             System.out.println(proizvod);
-            System.out.println(proizvod.ukupnaCijenaProizvoda());
+            float ukupna = proizvod.ukupnaCijenaProizvoda();
         }
     }
 }
