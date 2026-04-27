@@ -1,0 +1,4 @@
+fst ln
+snd line
+trd ine
+---------------

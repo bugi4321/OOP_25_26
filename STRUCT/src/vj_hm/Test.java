@@ -6,7 +6,7 @@ public class Test {
     public static void main(String[] args) {
         HashMap<Integer,String> podaci = new HashMap<>();
         HashMap<Student,Integer[]> studentiPodaci = new HashMap<>();
-        studentiPodaci.put(new Student("Miro"), new Integer[]{2, 3, 4, 5, 5});
+        studentiPodaci.put(new Student("Miro",22), new Integer[]{2, 3, 4, 5, 5});
         podaci.put(21, "Stipe");
         podaci.put(159,"Divna");
         podaci.put(985,"Etna");
