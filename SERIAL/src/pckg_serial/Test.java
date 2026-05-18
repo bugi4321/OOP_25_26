@@ -19,11 +19,11 @@ public class Test {
 //        spsl.add(sp4);
 //        spsl.add(sp5);
 //        saveSpaceShips(spsl,filePath);
-        SpaceShip sp7 = new SpaceShip("Seven45-45");
-        SpaceShip sp8 = new SpaceShip("EFE-34");
-        List<SpaceShip> spList = new ArrayList<>();
-        spList.add(sp7);
-        spList.add(sp8);
+//        SpaceShip sp7 = new SpaceShip("Seven45-45");
+//        SpaceShip sp8 = new SpaceShip("EFE-34");
+//        List<SpaceShip> spList = new ArrayList<>();
+//        spList.add(sp7);
+//        spList.add(sp8);
         String filePath2 = "./SERIAL/src/pckg_serial/spaceShipDataFile.dat";
         //saveSpaceShips(spList,filePath2);
         List<SpaceShip> newSpList = readSpaceShipData(filePath2);

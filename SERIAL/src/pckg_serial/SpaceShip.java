@@ -17,6 +17,9 @@ public class SpaceShip implements Serializable {
         this.id = cntID++;
         this.firstMissionDate = genRandomFirstMissionDate();
     }
+    public String getSpaceShipName(){
+        return this.spaceShipName;
+    }
 
     private LocalDate genRandomFirstMissionDate() {
         LocalDate startDate = LocalDate.of(2020, 12, 27);
